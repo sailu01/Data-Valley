@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Login Form</h2>
+
+<form> 
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" value="Name"><br> 
+    <label for="email">Email:</label> 
+    <input type="email" id="email" name="email" value="Id"><br> 
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd" minlength="8"><br> 
+    <label for="cpwd">Confirm Password:</label>
+    <input type="password" id="cpwd" name="cpwd" minlength="8"><br> 
+    <label for="dob">Date of Birth:</label> 
+    <input type="date" id="dob" name="dob" value="dd/mm/yyyy"><br> 
+    <label for="gender">Gender:</label> 
+    <select id="gender" name="gender"> 
+        <option value="male">Male</option> 
+        <option value="female">Female</option> 
+        <option value="other">Other</option> 
+    </select><br> 
+    <label for="photo">Insert your photo:</label><br> 
+    <input type="file" id="photo" name="photo"><br> 
+    <label for="resume">Insert your resume:</label><br> 
+    <input type="file" id="resume" name="resume"><br> 
+    <label for="security">Security Question:</label><br> 
+    <label id="security" name="security"> 
+        <textarea id="textarea" name="security" rows="4" cols="50">
+        </textarea>
+            
+    </label><br>
+    <input type="checkbox" id="terms" name="terms" required> 
+    <label for="terms"> I agree terms and conditions</label><br> 
+    <input type="submit" value="Register"> 
+</form>
+
+</body>
+</html>
